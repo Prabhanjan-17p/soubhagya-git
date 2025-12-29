@@ -7,4 +7,5 @@ public class BeanOne {
 		System.out.println("kanha");
 	}
 
+	// Work on other method dear
 }
