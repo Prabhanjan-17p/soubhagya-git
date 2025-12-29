@@ -312,3 +312,15 @@ java.lang.ClassNotFoundException: org.springframework.ide.vscode.commons.protoco
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-29 23:35:40.964
 !MESSAGE Classpath changed for project: MS-ClientServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-29 23:43:34.226
+!MESSAGE Classpath changed for project: MS-BillingClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-29 23:43:34.237
+!MESSAGE Boot project ADDED: MS-BillingClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-29 23:43:35.592
+!MESSAGE Classpath changed for project: MS-BillingClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-29 23:43:36.192
+!MESSAGE Classpath changed for project: MS-BillingClient
