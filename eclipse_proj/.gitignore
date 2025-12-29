@@ -35,3 +35,4 @@ build/
 
 # Eclipse / SonarLint
 .sonarlint/
+/.metadata/
