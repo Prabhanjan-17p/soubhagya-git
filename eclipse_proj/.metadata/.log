@@ -324,3 +324,33 @@ java.lang.ClassNotFoundException: org.springframework.ide.vscode.commons.protoco
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-29 23:43:36.192
 !MESSAGE Classpath changed for project: MS-BillingClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 00:00:47.804
+!MESSAGE Classpath changed for project: MS-BillingClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 00:01:37.461
+!MESSAGE Classpath changed for project: MS-BillingClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 00:09:18.085
+!MESSAGE Classpath changed for project: MS-BillingClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 00:09:45.349
+!MESSAGE Classpath changed for project: MS-CartClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 00:09:45.701
+!MESSAGE Classpath changed for project: MS-CartClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 00:09:45.704
+!MESSAGE Boot project ADDED: MS-CartClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 00:09:45.964
+!MESSAGE Classpath changed for project: MS-CartClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 00:09:46.898
+!MESSAGE Classpath changed for project: MS-CartClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 00:09:47.604
+!MESSAGE Classpath changed for project: MS-CartClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 00:10:25.777
+!MESSAGE Classpath changed for project: MS-CartClient
