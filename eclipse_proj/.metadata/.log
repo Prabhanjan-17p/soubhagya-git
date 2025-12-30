@@ -354,3 +354,426 @@ java.lang.ClassNotFoundException: org.springframework.ide.vscode.commons.protoco
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 00:10:25.777
 !MESSAGE Classpath changed for project: MS-CartClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 00:13:54.328
+!MESSAGE Classpath changed for project: MS-CartClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 00:14:14.075
+!MESSAGE Classpath changed for project: MS-CartClient
+!SESSION 2025-12-30 09:32:47.588 -----------------------------------------------
+eclipse.buildId=4.36.0.20250605-1300
+java.version=23.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-12-30 09:32:52.920
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-12-30 09:32:55.506
+!MESSAGE Logback config file: D:\Soubhagya Git\eclipse_proj\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-12-30 09:33:08.406
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\USER\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.2.v20250131-0604\jre\bin\javaw.exe
+-cp
+C:\Users\USER\eclipse\java-2024-09\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\USER\eclipse\java-2024-09\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\USER\eclipse\java-2024-09\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=D:/Soubhagya Git/eclipse_proj/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1767067388405
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 09:33:08.407
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-12-30 09:33:08.427
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 8804
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-30 09:33:08.500
+!MESSAGE org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+!STACK 0
+java.lang.ClassNotFoundException: org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:567)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:562)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:438)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:195)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:528)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:652)
+	at org.eclipse.lsp4e.LanguageServersRegistry$ExtensionLanguageServerDefinition.getServerInterface(LanguageServersRegistry.java:202)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:369)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:831)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:554)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1817)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1460)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2036)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:189)
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-12-30 09:33:30.355
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\USER'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 09:33:31.434
+!MESSAGE Boot project ADDED: MS-BillingClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 09:33:31.437
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 09:33:31.444
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 09:33:31.446
+!MESSAGE Boot project ADDED: MS-CartClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 09:33:31.449
+!MESSAGE Boot project ADDED: MS-ClientServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 09:33:31.452
+!MESSAGE Boot project ADDED: MS-Eureka
+
+!ENTRY org.eclipse.jface 2 0 2025-12-30 09:33:48.112
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-12-30 09:33:48.112
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-12-30 09:33:48.112
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.core.jobs 2 2 2025-12-30 09:33:51.897
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.oomph.setup.ui.synchronizer.SynchronizerManager$SynchronizationController$2 RUNNING
+	 at java.base/java.lang.Thread.sleepNanos0(Native Method)
+	 at java.base/java.lang.Thread.sleepNanos(Thread.java:496)
+	 at java.base/java.lang.Thread.sleep(Thread.java:527)
+	 at org.eclipse.oomph.setup.ui.synchronizer.SynchronizerManager$SynchronizationController$2.run(SynchronizerManager.java:606)
+	 at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2025-12-30 10:34:06.835 -----------------------------------------------
+eclipse.buildId=4.36.0.20250605-1300
+java.version=23.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-12-30 10:34:13.304
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-12-30 10:38:28.401
+!MESSAGE Logback config file: D:\Soubhagya Git\eclipse_proj\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-12-30 10:38:36.422
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\USER\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.2.v20250131-0604\jre\bin\javaw.exe
+-cp
+C:\Users\USER\eclipse\java-2024-09\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\USER\eclipse\java-2024-09\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\USER\eclipse\java-2024-09\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=D:/Soubhagya Git/eclipse_proj/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1767071316421
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 10:38:36.424
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-12-30 10:38:36.435
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 7928
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-30 10:38:36.555
+!MESSAGE org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+!STACK 0
+java.lang.ClassNotFoundException: org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:567)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:562)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:438)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:195)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:528)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:652)
+	at org.eclipse.lsp4e.LanguageServersRegistry$ExtensionLanguageServerDefinition.getServerInterface(LanguageServersRegistry.java:202)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:369)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:831)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:554)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1817)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1460)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2036)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:189)
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-12-30 10:38:46.187
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\USER'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 10:38:46.910
+!MESSAGE Boot project ADDED: MS-BillingClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 10:38:46.912
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 10:38:46.918
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 10:38:46.919
+!MESSAGE Boot project ADDED: MS-CartClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 10:38:46.920
+!MESSAGE Boot project ADDED: MS-ClientServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 10:38:46.922
+!MESSAGE Boot project ADDED: MS-Eureka
+
+!ENTRY org.eclipse.php.debug.core 4 4 2025-12-30 10:38:47.037
+!MESSAGE The debug port 9000 is in use. Please select a different port for the debugger.
+
+!ENTRY org.eclipse.php.debug.core 4 4 2025-12-30 10:38:47.047
+!MESSAGE Could not open a broadcast port on: 20080 (port might be in use). Please select a different port number
+
+!ENTRY org.eclipse.php.debug.core 4 4 2025-12-30 10:38:47.068
+!MESSAGE The debug port 10137 is in use. Please select a different port for the debugger.
+
+!ENTRY org.eclipse.jface 2 0 2025-12-30 11:03:23.078
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-12-30 11:03:23.078
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-12-30 11:03:23.078
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:31.886
+!MESSAGE Classpath changed for project: BootMSProj06-BillingService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:34.964
+!MESSAGE Classpath changed for project: BootMSProj06-BillingService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:34.965
+!MESSAGE Boot project ADDED: BootMSProj06-BillingService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:35.326
+!MESSAGE Classpath changed for project: BootMSProj06-BillingService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:35.963
+!MESSAGE Classpath changed for project: BootMSProj06-BillingService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:38.586
+!MESSAGE Classpath changed for project: BootMSProj06-BillingService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:38.713
+!MESSAGE Classpath changed for project: BootMSProj06-BillingService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:38.995
+!MESSAGE Classpath changed for project: BootMSProj06-BillingService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:39.207
+!MESSAGE Classpath changed for project: BootMSProj06-BillingService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:39.702
+!MESSAGE Classpath changed for project: BootMSProj06-BillingService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:39.769
+!MESSAGE Classpath changed for project: BootMSProj06-BillingService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:39.808
+!MESSAGE Classpath changed for project: BootMSProj06-BillingService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:39.892
+!MESSAGE Classpath changed for project: BootMSProj06-BillingService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:39.956
+!MESSAGE Classpath changed for project: BootMSProj06-BillingService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:40.046
+!MESSAGE Classpath changed for project: BootMSProj06-CartMS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:40.131
+!MESSAGE Classpath changed for project: BootMSProj06-CartMS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:40.132
+!MESSAGE Boot project ADDED: BootMSProj06-CartMS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:40.234
+!MESSAGE Classpath changed for project: BootMSProj06-CartMS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:40.571
+!MESSAGE Classpath changed for project: BootMSProj06-BillingService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:42.465
+!MESSAGE Classpath changed for project: BootMSProj06-CartMS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:42.466
+!MESSAGE Classpath changed for project: MS-BillingClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:43.955
+!MESSAGE Classpath changed for project: MS-BillingClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:43.956
+!MESSAGE Classpath changed for project: MS-CartClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:43.957
+!MESSAGE Classpath changed for project: MS-ClientServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:43.958
+!MESSAGE Classpath changed for project: MS-Eureka
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:55.274
+!MESSAGE Classpath changed for project: BootMSProj06-ConfigServer-External
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:55.573
+!MESSAGE Classpath changed for project: BootMSProj06-ConfigServer-External
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:55.574
+!MESSAGE Boot project ADDED: BootMSProj06-ConfigServer-External
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:55.645
+!MESSAGE Classpath changed for project: BootMSProj06-ConfigServer-External
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:55.812
+!MESSAGE Classpath changed for project: BootMSProj06-ConfigServer-External
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:56.134
+!MESSAGE Classpath changed for project: BootMSProj06-ConfigServer-External
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:04:56.933
+!MESSAGE Classpath changed for project: BootMSProj06-ConfigServer-External
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:05:00.240
+!MESSAGE Classpath changed for project: BootMSProj06-ConfigServer-Native
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:05:00.309
+!MESSAGE Classpath changed for project: BootMSProj06-ConfigServer-Native
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:05:00.310
+!MESSAGE Boot project ADDED: BootMSProj06-ConfigServer-Native
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:05:00.412
+!MESSAGE Classpath changed for project: BootMSProj06-ConfigServer-Native
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:05:00.905
+!MESSAGE Classpath changed for project: BootMSProj06-ConfigServer-Native
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:05:08.148
+!MESSAGE Classpath changed for project: BootMSProj06-EurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:05:08.347
+!MESSAGE Classpath changed for project: BootMSProj06-EurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:05:08.348
+!MESSAGE Boot project ADDED: BootMSProj06-EurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:05:08.454
+!MESSAGE Classpath changed for project: BootMSProj06-EurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:05:08.791
+!MESSAGE Classpath changed for project: BootMSProj06-EurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:05:09.034
+!MESSAGE Classpath changed for project: BootMSProj06-EurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:05:09.790
+!MESSAGE Classpath changed for project: BootMSProj06-EurekaServer
+
+!ENTRY org.eclipse.jface 2 0 2025-12-30 11:05:49.520
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-12-30 11:05:49.520
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 11:12:16.001
+!MESSAGE Classpath changed for project: BootMSProj06-BillingService

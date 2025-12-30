@@ -20,7 +20,7 @@ public class BillingOperationsMS {
 	@Value("${db.user}")
 	private String user;
 	
-	@Value("${db.pass}")
+	@Value("${db.pwd}")
 	private String pass;
 	
 	@GetMapping("/info")
