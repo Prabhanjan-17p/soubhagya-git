@@ -1331,3 +1331,27 @@ Binding(ALT+SHIFT+D R,
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 22:52:28.325
 !MESSAGE Classpath changed for project: MS-BillingClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 22:58:20.777
+!MESSAGE Classpath changed for project: Team_A-B
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 22:58:23.680
+!MESSAGE Classpath changed for project: Team_A-B
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 22:58:23.680
+!MESSAGE Boot project ADDED: Team_A-B
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 22:58:28.675
+!MESSAGE Classpath changed for project: Team_A-B
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 22:58:29.338
+!MESSAGE Classpath changed for project: Team_A-B
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 22:58:30.191
+!MESSAGE Classpath changed for project: Team_A-B
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 22:58:32.077
+!MESSAGE Classpath changed for project: Team_A-B
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 23:00:09.393
+!MESSAGE Classpath changed for project: Team_A-B
