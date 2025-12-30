@@ -1,7 +1,14 @@
 package com.nt.sbeans;
 
 public class ClassA {
-	public void adding() {
+	public void adding(int a,int b) {
+		
+		System.out.println(a+b);
+		
+	}
+	
+	public static void main(String[] args) 
+	{
 		
 	}
 }
