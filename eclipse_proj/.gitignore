@@ -18,6 +18,12 @@ target/
 *.iws
 *.iml
 *.ipr
+.metadata/
+.classpath
+.project
+.settings/
+target/
+*.log
 
 ### NetBeans ###
 /nbproject/private/
