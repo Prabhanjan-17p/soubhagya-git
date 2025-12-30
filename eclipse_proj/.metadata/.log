@@ -1295,3 +1295,27 @@ Binding(ALT+SHIFT+D R,
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 22:46:34.600
 !MESSAGE Classpath changed for project: BootMSProj06-ConfigServer-Native
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 22:46:39.122
+!MESSAGE Classpath changed for project: BootMSProj08-BillingService-Actuators
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 22:46:39.123
+!MESSAGE Classpath changed for project: BootMSProj08-CartMS-Actuators
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 22:46:39.123
+!MESSAGE Classpath changed for project: BootMSProj08-ConfigServer-External-Actuators
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 22:46:40.816
+!MESSAGE Classpath changed for project: BootMSProj08-EurekaServer-Actuators
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 22:46:40.817
+!MESSAGE Classpath changed for project: MS-BillingClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 22:46:40.818
+!MESSAGE Classpath changed for project: MS-CartClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 22:46:42.329
+!MESSAGE Classpath changed for project: MS-ClientServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 22:46:42.753
+!MESSAGE Classpath changed for project: MS-Eureka
