@@ -9,6 +9,6 @@ public class ClassA {
 	
 	public static void main(String[] args) 
 	{
-		
+		new ClassA().adding(10, 20);
 	}
 }
