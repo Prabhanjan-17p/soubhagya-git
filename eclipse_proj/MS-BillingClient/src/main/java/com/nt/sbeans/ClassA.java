@@ -10,5 +10,6 @@ public class ClassA {
 	public static void main(String[] args) 
 	{
 		ClassA classA = new ClassA();
+		new ClassA().adding(10, 20);
 	}
 }
